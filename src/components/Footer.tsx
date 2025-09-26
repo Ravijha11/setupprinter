@@ -21,7 +21,7 @@ const Footer = () => {
             transition={{ duration: 0.6 }}
           >
             <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 font-serif bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              Printer Support
+              Techie Care - Printer Fix
             </h3>
             <p className="text-sm sm:text-base text-gray-300 mb-4 sm:mb-6 font-serif">
               Printer support services for all major brands. Get troubleshooting help, 
@@ -164,7 +164,7 @@ const Footer = () => {
         >
           <h2 className="text-lg sm:text-xl font-bold text-center mb-3 sm:mb-4 font-serif">Disclaimer</h2>
           <p className="text-center text-sm sm:text-base text-gray-300 max-w-4xl mx-auto font-serif">
-            Printer Fix is an independent service provider. We are not affiliated with, nor endorsed by, any of the brands mentioned on this website. The content on printerdoctor.info is designed to offer general troubleshooting steps and expert advice to assist users with common printer-related issues.
+            Techie Care - Printer Fix is an independent service provider. We are not affiliated with, nor endorsed by, any of the brands mentioned on this website. The content on printerdoctor.info is designed to offer general troubleshooting steps and expert advice to assist users with common printer-related issues.
           </p>
         </motion.div>
 
@@ -176,7 +176,7 @@ const Footer = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <p className="text-gray-400 mb-4 font-serif">© 2024 Printer Fix. All Rights Reserved.</p>
+          <p className="text-gray-400 mb-4 font-serif">© 2024 Techie Care - Printer Fix. All Rights Reserved.</p>
           
           <div className="flex justify-center items-center flex-wrap gap-2 sm:gap-4 text-sm sm:text-base text-gray-400">
             <Link to="/about-us" className="hover:text-blue-400 transition-colors font-serif">

@@ -60,7 +60,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-bold text-lg text-gray-800 font-serif">Call Us</h4>
-                      <p className="text-blue-600 text-xl font-semibold font-serif">+1 (877) 593-3790</p>
+                      <p className="text-blue-600 text-xl font-semibold font-serif">+1 (833) 761-2409</p>
                       <p className="text-gray-600 font-serif">Call now for immediate assistance</p>
                     </div>
                   </motion.div>

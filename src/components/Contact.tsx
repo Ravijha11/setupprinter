@@ -69,9 +69,9 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-blue-600 flex-shrink-0" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg text-gray-800 font-serif">Call Us</h4>
-                  <p className="text-blue-600 text-xl font-semibold font-serif">+1 (877) 593-3790</p>
-                  <p className="text-gray-600 font-serif">Available during business hours</p>
+                  <h4 className="font-bold text-base sm:text-lg text-gray-800 font-serif">Call Us</h4>
+                  <p className="text-blue-600 text-lg sm:text-xl font-semibold font-serif">+1 (833) 761-2409</p>
+                  <p className="text-gray-600 text-sm sm:text-base font-serif">Available during business hours</p>
                 </div>
               </motion.div>
 
@@ -88,9 +88,9 @@ const Contact = () => {
                   <Mail className="w-6 h-6 text-green-600 flex-shrink-0" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg text-gray-800 font-serif">Email Us</h4>
-                  <p className="text-green-600 text-xl font-semibold font-serif">contact@setupprinter.online</p>
-                  <p className="text-gray-600 font-serif">We aim to respond promptly</p>
+                  <h4 className="font-bold text-base sm:text-lg text-gray-800 font-serif">Email Us</h4>
+                  <p className="text-green-600 text-lg sm:text-xl font-semibold font-serif">contact@setupprinter.online</p>
+                  <p className="text-gray-600 text-sm sm:text-base font-serif">We aim to respond promptly</p>
                 </div>
               </motion.div>
 
@@ -106,9 +106,9 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-purple-600 flex-shrink-0" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg text-gray-800 font-serif">Service Area</h4>
-                  <p className="text-purple-600 text-xl font-semibold font-serif">All Metro Areas</p>
-                  <p className="text-gray-600 font-serif">On-site service may be available</p>
+                  <h4 className="font-bold text-base sm:text-lg text-gray-800 font-serif">Service Area</h4>
+                  <p className="text-purple-600 text-lg sm:text-xl font-semibold font-serif">All Metro Areas</p>
+                  <p className="text-gray-600 text-sm sm:text-base font-serif">On-site service may be available</p>
                 </div>
               </motion.div>
 
@@ -124,9 +124,9 @@ const Contact = () => {
                   <Clock className="w-6 h-6 text-orange-600 flex-shrink-0" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg text-gray-800 font-serif">Business Hours</h4>
-                  <p className="text-orange-600 text-xl font-semibold font-serif">24/7 Emergency Service</p>
-                  <p className="text-gray-600 font-serif">Mon-Fri: 8:00 AM - 6:00 PM</p>
+                  <h4 className="font-bold text-base sm:text-lg text-gray-800 font-serif">Business Hours</h4>
+                  <p className="text-orange-600 text-lg sm:text-xl font-semibold font-serif">24/7 Emergency Service</p>
+                  <p className="text-gray-600 text-sm sm:text-base font-serif">Mon-Fri: 8:00 AM - 6:00 PM</p>
                 </div>
               </motion.div>
             </div>

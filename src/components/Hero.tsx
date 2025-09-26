@@ -78,14 +78,14 @@ const Hero = () => {
           <motion.div className="space-y-8" variants={itemVariants}>
             <div className="space-y-6">
               <motion.h1 
-                className="text-4xl sm:text-5xl lg:text-7xl font-bold text-gray-800 leading-tight"
+                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-800 leading-tight"
                 variants={itemVariants}
               >
                 Reliable
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 block">
                   Printer Support
                 </span>
-                <span className="text-gray-600 text-3xl sm:text-4xl lg:text-5xl block font-serif">
+                <span className="text-gray-600 text-2xl sm:text-3xl md:text-4xl lg:text-5xl block font-serif">
                   Services
                 </span>
               </motion.h1>
@@ -108,7 +108,7 @@ const Hero = () => {
                   transition={{ duration: 0.2 }}
                 >
                   <feature.icon className={`w-6 h-6 ${feature.color} flex-shrink-0 group-hover:scale-110 transition-transform`} />
-                  <span className="text-gray-700 text-base sm:text-lg font-medium font-serif">{feature.text}</span>
+                  <span className="text-gray-700 text-sm sm:text-base md:text-lg font-medium font-serif">{feature.text}</span>
                 </motion.div>
               ))}
             </motion.div>
@@ -118,14 +118,15 @@ const Hero = () => {
               variants={itemVariants}
             >
               <motion.button 
-                className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-base sm:text-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group w-full sm:w-auto"
+                className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 sm:px-6 md:px-8 py-3 sm:py-4 rounded-lg font-bold text-sm sm:text-base md:text-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group w-full sm:w-auto"
                 variants={buttonVariants}
                 whileHover="hover"
                 whileTap="tap"
                 onClick={() => window.location.href = 'tel:+18337612409'}
               >
-                <Phone className="w-5 h-5 mr-2 group-hover:animate-pulse" />
-                Call Now: +1 (833) 761-2409
+                <Phone className="w-4 h-4 sm:w-5 sm:h-5 mr-2 group-hover:animate-pulse" />
+                <span className="hidden sm:inline">Call Now: +1 (833) 761-2409</span>
+                <span className="sm:hidden">Call Now</span>
               </motion.button>
               <motion.div
                 variants={buttonVariants}

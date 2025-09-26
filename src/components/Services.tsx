@@ -86,16 +86,16 @@ const Services = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <div className="flex flex-col md:flex-row justify-center items-center gap-8">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-8">
             <motion.div 
               className="flex items-center group cursor-pointer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => window.location.href = 'tel:+18337612409'}
             >
-              <span className="text-2xl mr-2">🇺🇸</span>
-              <span className="text-blue-600 font-bold text-xl font-serif group-hover:text-blue-700 transition-colors">
-                +1 (877) 593-3790
+              <span className="text-xl sm:text-2xl mr-2">🇺🇸</span>
+              <span className="text-blue-600 font-bold text-lg sm:text-xl font-serif group-hover:text-blue-700 transition-colors">
+                +1 (833) 761-2409
               </span>
             </motion.div>
             <motion.div 
@@ -104,7 +104,7 @@ const Services = () => {
               whileTap={{ scale: 0.95 }}
               onClick={() => window.location.href = 'mailto:contact@setupprinter.online'}
             >
-              <span className="text-blue-600 font-bold font-serif group-hover:text-blue-700 transition-colors">
+              <span className="text-blue-600 font-bold text-sm sm:text-base font-serif group-hover:text-blue-700 transition-colors">
                 ✉️ contact@setupprinter.online
               </span>
             </motion.div>

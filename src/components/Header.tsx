@@ -82,11 +82,11 @@ const Header = () => {
       <div className="container mx-auto px-4 py-2 sm:py-4">
         <div className="flex justify-between items-center">
           <motion.div 
-            className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-serif"
+            className="text-sm sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-serif"
             variants={itemVariants}
             whileHover={{ scale: 1.05 }}
           >
-            PrinterFix Expert
+            Techie Care - Printer Fix
           </motion.div>
           
           <motion.nav 
@@ -110,15 +110,16 @@ const Header = () => {
             ))}
           </motion.nav>
           
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-2 sm:space-x-4">
             <motion.button 
-              className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 font-serif text-sm sm:text-base"
+              className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-2 sm:px-4 md:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 font-serif text-xs sm:text-sm md:text-base whitespace-nowrap"
               variants={itemVariants}
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => window.location.href = 'tel:+18337612409'}
             >
-              GET FREE QUOTE
+              <span className="hidden sm:inline">GET FREE QUOTE</span>
+              <span className="sm:hidden">QUOTE</span>
             </motion.button>
             
             <motion.button
