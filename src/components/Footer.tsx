@@ -133,11 +133,11 @@ const Footer = () => {
                 className="flex items-center group cursor-pointer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                onClick={() => window.location.href = 'tel:+1-877-593-3790'}
+                onClick={() => window.location.href = 'tel:+18337612409'}
               >
                 <span className="text-2xl mr-2">🇺🇸</span>
                 <span className="text-blue-600 font-bold text-lg sm:text-xl font-serif group-hover:text-blue-700 transition-colors">
-                  +1 (877) 593-3790
+                  +1 (833) 761-2409
                 </span>
               </motion.div>
               <motion.div 

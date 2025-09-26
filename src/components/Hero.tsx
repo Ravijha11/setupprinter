@@ -19,7 +19,7 @@ const Hero = () => {
     // Simulate a brief delay for better UX
     setTimeout(() => {
       setIsSubmitting(false);
-      window.location.href = 'tel:+1-877-593-3790';
+      window.location.href = 'tel:+18337612409';
     }, 500);
   };
 
@@ -122,10 +122,10 @@ const Hero = () => {
                 variants={buttonVariants}
                 whileHover="hover"
                 whileTap="tap"
-                onClick={() => window.location.href = 'tel:+1-877-593-3790'}
+                onClick={() => window.location.href = 'tel:+18337612409'}
               >
                 <Phone className="w-5 h-5 mr-2 group-hover:animate-pulse" />
-                Call Now: +1 (877) 593-3790
+                Call Now: +1 (833) 761-2409
               </motion.button>
               <motion.div
                 variants={buttonVariants}

@@ -53,10 +53,10 @@ const Header = () => {
               <motion.div 
                 className="flex items-center group cursor-pointer"
                 whileHover={{ scale: 1.05 }}
-                onClick={() => window.location.href = 'tel:+1-877-593-3790'}
+                onClick={() => window.location.href = 'tel:+18337612409'}
               >
                 <Phone className="w-4 h-4 mr-2 group-hover:text-blue-400 transition-colors" />
-                <span className="font-serif">+1 (877) 593-3790</span>
+                <span className="font-serif">+1 (833) 761-2409</span>
               </motion.div>
               <motion.div 
                 className="flex items-center group cursor-pointer"
@@ -116,7 +116,7 @@ const Header = () => {
               variants={itemVariants}
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
-              onClick={() => window.location.href = 'tel:+1-877-593-3790'}
+              onClick={() => window.location.href = 'tel:+18337612409'}
             >
               GET FREE QUOTE
             </motion.button>
@@ -173,7 +173,7 @@ const Header = () => {
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => {
-                    window.location.href = 'tel:+1-877-593-3790';
+                    window.location.href = 'tel:+18337612409';
                     setIsMobileMenuOpen(false);
                   }}
                 >

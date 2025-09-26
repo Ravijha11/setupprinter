@@ -53,7 +53,7 @@ export default function Contact() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
                     whileHover={{ scale: 1.02, y: -5 }}
-                    onClick={() => window.location.href = 'tel:+1-877-593-3790'}
+                    onClick={() => window.location.href = 'tel:+18337612409'}
                   >
                     <div className="p-3 rounded-lg bg-blue-50 group-hover:scale-110 transition-transform duration-300">
                       <Phone className="w-6 h-6 text-blue-600 flex-shrink-0" />

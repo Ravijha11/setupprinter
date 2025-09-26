@@ -170,10 +170,10 @@ const About = () => {
                   className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:shadow-lg transition-all duration-300 font-serif flex items-center mx-auto"
                   whileHover={{ scale: 1.05, y: -2 }}
                   whileTap={{ scale: 0.95 }}
-                  onClick={() => window.location.href = 'tel:+1-877-593-3790'}
+                  onClick={() => window.location.href = 'tel:+18337612409'}
                 >
                   <Phone className="w-5 h-5 mr-2" />
-                  Call Now: +1 (877) 593-3790
+                  Call Now: +1 (833) 761-2409
                 </motion.button>
               </motion.section>
             </div>

@@ -30,7 +30,7 @@ const FloatingCallButton = () => (
       className="bg-gradient-to-r from-green-500 to-green-600 text-white p-3 sm:p-4 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 group flex items-center gap-2"
       whileHover={{ scale: 1.1, rotate: 360 }}
       whileTap={{ scale: 0.9 }}
-      onClick={() => window.location.href = 'tel:+1-877-593-3790'}
+      onClick={() => window.location.href = 'tel:+18337612409'}
     >
       <Phone className="w-5 h-5 sm:w-6 sm:h-6 group-hover:animate-pulse" />
       <span className="hidden sm:inline text-sm font-semibold">Call Now</span>
