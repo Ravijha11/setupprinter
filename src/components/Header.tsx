@@ -1,4 +1,4 @@
-import { MapPin, Menu, X, Phone } from 'lucide-react';
+import { MapPin, Menu, X, Phone, Clock } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
@@ -42,6 +42,39 @@ const Header = () => {
       animate="visible"
       variants={containerVariants}
     >
+      {/* Contact Info Bar */}
+      <motion.div 
+        className="bg-gradient-to-r from-gray-800 to-gray-900 text-white py-2 sm:py-3"
+        variants={itemVariants}
+      >
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col sm:flex-row justify-between items-center text-sm gap-2 sm:gap-0">
+            <div className="flex flex-col sm:flex-row items-center space-y-1 sm:space-y-0 sm:space-x-6">
+              <motion.div 
+                className="flex items-center group cursor-pointer"
+                whileHover={{ scale: 1.05 }}
+                onClick={() => window.location.href = 'tel:+18593126304'}
+              >
+                <Phone className="w-4 h-4 mr-2 group-hover:text-blue-400 transition-colors" />
+                <span className="font-serif">+1 (859) 312-6304</span>
+              </motion.div>
+              <motion.div 
+                className="flex items-center"
+                whileHover={{ scale: 1.05 }}
+              >
+                <Clock className="w-4 h-4 mr-2 text-blue-400" />
+                <span className="font-serif text-xs sm:text-sm">Available 24/7</span>
+              </motion.div>
+            </div>
+            <motion.div 
+              className="flex items-center"
+              variants={itemVariants}
+            >
+              <span className="font-serif text-xs sm:text-sm">Contact Us for Printer Support</span>
+            </motion.div>
+          </div>
+        </div>
+      </motion.div>
 
       {/* Main navigation */}
       <div className="container mx-auto px-4 py-2 sm:py-4">
