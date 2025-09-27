@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Settings, Wifi, Shield, HeadphonesIcon, Monitor, UserCheck, ArrowRight, Star } from 'lucide-react';
+import { Settings, Wifi, Shield, HeadphonesIcon, Monitor, UserCheck, ArrowRight, Star, Phone, Mail } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -148,7 +148,7 @@ export default function Services() {
                   whileTap={{ scale: 0.95 }}
                   onClick={() => window.location.href = 'tel:+18593126304'}
                 >
-                  <span className="text-2xl mr-2">🇺🇸</span>
+                  <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600 mr-2" />
                   <span className="text-blue-600 font-bold text-lg sm:text-xl font-serif group-hover:text-blue-700 transition-colors">
                     +1 (859) 312-6304
                   </span>
@@ -159,8 +159,9 @@ export default function Services() {
                   whileTap={{ scale: 0.95 }}
                   onClick={() => window.location.href = 'mailto:contact@setupprinter.online'}
                 >
-                  <span className="text-blue-600 font-bold font-serif group-hover:text-blue-700 transition-colors">
-                    ✉️ contact@setupprinter.online
+                  <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-green-600 mr-2" />
+                  <span className="text-green-600 font-bold font-serif group-hover:text-green-700 transition-colors">
+                    contact@setupprinter.online
                   </span>
                 </motion.div>
               </div>

@@ -1,4 +1,4 @@
-import { MapPin, Menu, X } from 'lucide-react';
+import { MapPin, Menu, X, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
@@ -77,12 +77,13 @@ const Header = () => {
           
           <div className="flex items-center space-x-2 sm:space-x-4">
             <motion.button 
-              className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-2 sm:px-4 md:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 font-serif text-xs sm:text-sm md:text-base whitespace-nowrap"
+              className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-2 sm:px-4 md:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 font-serif text-xs sm:text-sm md:text-base whitespace-nowrap flex items-center gap-1 sm:gap-2"
               variants={itemVariants}
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => window.location.href = 'tel:+18593126304'}
             >
+              <Phone className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5" />
               <span className="hidden sm:inline">GET FREE QUOTE</span>
               <span className="sm:hidden">QUOTE</span>
             </motion.button>
@@ -132,7 +133,7 @@ const Header = () => {
                   </motion.div>
                 ))}
                 <motion.button 
-                  className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 font-serif mt-4"
+                  className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 font-serif mt-4 flex items-center justify-center gap-2"
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: navItems.length * 0.1 }}
@@ -143,6 +144,7 @@ const Header = () => {
                     setIsMobileMenuOpen(false);
                   }}
                 >
+                  <Phone className="w-4 h-4" />
                   CALL NOW
                 </motion.button>
               </nav>

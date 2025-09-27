@@ -21,22 +21,22 @@ const queryClient = new QueryClient();
 
 const FloatingCallButton = () => (
   <motion.div
-    className="fixed bottom-4 sm:bottom-6 right-4 sm:right-6 z-50"
+    className="fixed bottom-3 sm:bottom-6 right-3 sm:right-6 z-50"
     initial={{ scale: 0, opacity: 0 }}
     animate={{ scale: 1, opacity: 1 }}
     transition={{ delay: 1, duration: 0.5 }}
   >
     <motion.button
-      className="bg-gradient-to-r from-green-500 to-green-600 text-white p-2 sm:p-3 md:p-4 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 group flex items-center gap-1 sm:gap-2"
+      className="bg-gradient-to-r from-green-500 to-green-600 text-white p-3 sm:p-3 md:p-4 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 group flex items-center gap-1 sm:gap-2 min-w-[60px] sm:min-w-auto"
       whileHover={{ scale: 1.1, rotate: 360 }}
       whileTap={{ scale: 0.9 }}
       onClick={() => window.location.href = 'tel:+18593126304'}
     >
-      <Phone className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 group-hover:animate-pulse" />
+      <Phone className="w-5 h-5 sm:w-5 sm:h-5 md:w-6 md:h-6 group-hover:animate-pulse" />
       <span className="hidden sm:inline text-xs sm:text-sm font-semibold">Call Now</span>
     </motion.button>
     <motion.div
-      className="absolute -top-1 -right-1 sm:-top-2 sm:-right-2 bg-red-500 text-white text-[8px] sm:text-[10px] md:text-xs rounded-full w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex items-center justify-center font-bold animate-pulse"
+      className="absolute -top-1 -right-1 sm:-top-2 sm:-right-2 bg-red-500 text-white text-[10px] sm:text-[10px] md:text-xs rounded-full w-5 h-5 sm:w-5 sm:h-5 md:w-6 md:h-6 flex items-center justify-center font-bold animate-pulse"
       initial={{ scale: 0 }}
       animate={{ scale: 1 }}
       transition={{ delay: 1.5, duration: 0.3 }}
