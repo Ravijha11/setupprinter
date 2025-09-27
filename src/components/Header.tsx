@@ -77,7 +77,7 @@ const Header = () => {
           
           <div className="flex items-center space-x-2 sm:space-x-4">
             <motion.button 
-              className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-2 sm:px-4 md:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 font-serif text-xs sm:text-sm md:text-base whitespace-nowrap flex items-center gap-1 sm:gap-2"
+              className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-2 sm:px-4 md:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 font-serif text-xs sm:text-sm md:text-base flex items-center gap-1 sm:gap-2"
               variants={itemVariants}
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
