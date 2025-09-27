@@ -1,4 +1,4 @@
-import { Phone, MapPin, Clock, Menu, X, Mail } from 'lucide-react';
+import { MapPin, Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
@@ -42,41 +42,6 @@ const Header = () => {
       animate="visible"
       variants={containerVariants}
     >
-      {/* Top info bar */}
-      <motion.div 
-        className="bg-gradient-to-r from-gray-800 to-gray-900 text-white py-2 sm:py-3"
-        variants={itemVariants}
-      >
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center text-sm gap-2 sm:gap-0">
-            <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-6 w-full sm:w-auto">
-              <motion.div 
-                className="flex items-center group cursor-pointer"
-                whileHover={{ scale: 1.05 }}
-                onClick={() => window.location.href = 'tel:+18337612409'}
-              >
-                <Phone className="w-4 h-4 mr-2 group-hover:text-blue-400 transition-colors" />
-                <span className="font-serif">+1 (833) 761-2409</span>
-              </motion.div>
-              <motion.div 
-                className="flex items-center group cursor-pointer"
-                whileHover={{ scale: 1.05 }}
-                onClick={() => window.location.href = 'mailto:contact@setupprinter.online'}
-              >
-                <Mail className="w-4 h-4 mr-2 group-hover:text-blue-400 transition-colors" />
-                <span className="hidden sm:inline-block font-serif">contact@setupprinter.online</span>
-              </motion.div>
-            </div>
-            <motion.div 
-              className="flex items-center"
-              variants={itemVariants}
-            >
-              <Clock className="w-4 h-4 mr-2 text-blue-400" />
-              <span className="font-serif text-xs sm:text-sm">Available 24/7 for printer support</span>
-            </motion.div>
-          </div>
-        </div>
-      </motion.div>
 
       {/* Main navigation */}
       <div className="container mx-auto px-4 py-2 sm:py-4">
@@ -116,7 +81,7 @@ const Header = () => {
               variants={itemVariants}
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
-              onClick={() => window.location.href = 'tel:+18337612409'}
+              onClick={() => window.location.href = 'tel:+18593126304'}
             >
               <span className="hidden sm:inline">GET FREE QUOTE</span>
               <span className="sm:hidden">QUOTE</span>
@@ -174,7 +139,7 @@ const Header = () => {
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => {
-                    window.location.href = 'tel:+18337612409';
+                    window.location.href = 'tel:+18593126304';
                     setIsMobileMenuOpen(false);
                   }}
                 >

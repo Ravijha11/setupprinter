@@ -80,7 +80,7 @@ export default function Services() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   whileHover={{ scale: 1.05, y: -10 }}
-                  onClick={() => window.location.href = 'tel:+18337612409'}
+                  onClick={() => window.location.href = 'tel:+18593126304'}
                 >
                   <motion.div 
                     className={`flex items-center justify-center w-16 sm:w-20 h-16 sm:h-20 bg-gradient-to-r ${service.color} rounded-2xl mx-auto mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300`}
@@ -146,11 +146,11 @@ export default function Services() {
                   className="flex items-center group cursor-pointer"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  onClick={() => window.location.href = 'tel:+18337612409'}
+                  onClick={() => window.location.href = 'tel:+18593126304'}
                 >
                   <span className="text-2xl mr-2">🇺🇸</span>
                   <span className="text-blue-600 font-bold text-lg sm:text-xl font-serif group-hover:text-blue-700 transition-colors">
-                    +1 (833) 761-2409
+                    +1 (859) 312-6304
                   </span>
                 </motion.div>
                 <motion.div 
