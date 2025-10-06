@@ -160,7 +160,7 @@ const Footer = () => {
         >
           <h2 className="text-lg sm:text-xl font-bold text-center mb-3 sm:mb-4 font-serif">Disclaimer</h2>
           <p className="text-center text-sm sm:text-base text-gray-300 max-w-4xl mx-auto font-serif">
-            Techie Care - Printer Fix is an independent service provider. We are not affiliated with, nor endorsed by, any of the brands mentioned on this website. The content on printerdoctor.info is designed to offer general troubleshooting steps and expert advice to assist users with common printer-related issues.
+          Techie Care – Printer Solutions is an independent technical assistance provider. We are neither affiliated with nor endorsed by any company or manufacturer referenced on this website. The content on setupprinter.online is intended to provide general troubleshooting guidance and expert insights to help users resolve common printer-related issues.
           </p>
         </motion.div>
 
