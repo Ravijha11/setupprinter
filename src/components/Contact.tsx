@@ -63,14 +63,14 @@ const Contact = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
                 whileHover={{ scale: 1.02, y: -5 }}
-                onClick={() => window.location.href = 'tel:+18593126304'}
+                onClick={() => window.location.href = 'tel:+18287678724'}
               >
                 <div className="p-2 sm:p-3 rounded-lg bg-blue-50 group-hover:scale-110 transition-transform duration-300">
                   <Phone className="w-6 h-6 text-blue-600 flex-shrink-0" />
                 </div>
                 <div>
                   <h4 className="font-bold text-base sm:text-lg text-gray-800 font-serif">Call Us</h4>
-                  <p className="text-blue-600 text-lg sm:text-xl font-semibold font-serif">+1 (859) 312-6304</p>
+                  <p className="text-blue-600 text-lg sm:text-xl font-semibold font-serif">+1 (828) 767-8724</p>
                   <p className="text-gray-600 text-sm sm:text-base font-serif">Available during business hours</p>
                 </div>
               </motion.div>
