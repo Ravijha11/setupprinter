@@ -40,7 +40,7 @@ const Contact = () => {
             Contact Us Today
           </h2>
           <p className="text-base sm:text-xl text-gray-600 max-w-2xl mx-auto font-serif">
-            Ready to get your printer fixed? Contact us for printer support services.
+            Ready to get your printer fixed? Contact us.
           </p>
         </motion.div>
 
@@ -142,7 +142,7 @@ const Contact = () => {
           >
             <div className="flex items-center mb-6">
               <MessageCircle className="w-8 h-8 text-blue-600 mr-3" />
-              <h3 className="text-xl sm:text-2xl font-bold text-gray-800 font-serif">Request Service</h3>
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-800 font-serif">Get in Touch</h3>
             </div>
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
