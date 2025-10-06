@@ -53,10 +53,10 @@ const Header = () => {
               <motion.div 
                 className="flex items-center group cursor-pointer"
                 whileHover={{ scale: 1.05 }}
-                onClick={() => window.location.href = 'tel:+18593126304'}
+                onClick={() => window.location.href = 'tel:+18287678724'}
               >
                 <Phone className="w-4 h-4 mr-2 group-hover:text-blue-400 transition-colors" />
-                <span className="font-serif">+1 (859) 312-6304</span>
+                <span className="font-serif">+1 (828) 767-8724</span>
               </motion.div>
               <motion.div 
                 className="flex items-center"
