@@ -6,10 +6,10 @@ const About = () => {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-8 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 sm:mb-6 font-serif">
-            About Our Printer Service
+            About Our Printer Expertise
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto font-serif">
-            We're dedicated to providing expert printer solutions and maintenance services 
+            We're dedicated to providing expert printer Expertise and maintenance  
             to keep your business running smoothly.
           </p>
         </div>
@@ -17,7 +17,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-8 sm:gap-12">
           <div className="space-y-6">
             <h3 className="text-xl sm:text-2xl font-bold text-gray-800 font-serif">
-              Your Trusted Printer Service Partner
+              Your Trusted Printer assitance Partner
             </h3>
             <p className="text-gray-600 leading-relaxed text-base sm:text-lg font-serif">
               With years of experience in printer troubleshooting and maintenance, 
