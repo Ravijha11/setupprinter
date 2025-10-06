@@ -17,11 +17,10 @@ const Footer = () => {
             transition={{ duration: 0.6 }}
           >
             <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 font-serif bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              Techie Care - Printer Fix
+              Techie Care – Printer Diagnostics & Solutions
             </h3>
             <p className="text-sm sm:text-base text-gray-300 mb-4 sm:mb-6 font-serif">
-              Printer support services for all major brands. Get troubleshooting help, 
-              wireless setup assistance, and available support.
+             Expert printer care for trusted makers. Get troubleshooting guidance, wireless configuration, and repair assistance.
             </p>
             <div className="flex space-x-4">
               <motion.a 
