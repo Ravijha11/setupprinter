@@ -103,9 +103,9 @@ export default function Testimonials() {
                 className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 sm:px-6 md:px-8 py-3 sm:py-4 rounded-lg font-bold text-sm sm:text-base md:text-lg hover:shadow-lg transition-all duration-300 font-serif"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
-                onClick={() => window.location.href = 'tel:+18593126304'}
+                onClick={() => window.location.href = 'tel:+18287678724 '}
               >
-                <span className="hidden sm:inline">Call Now: +1 (859) 312-6304</span>
+                <span className="hidden sm:inline">Call Now: +1 (828) 767-8724</span>
                 <span className="sm:hidden">Call Now</span>
               </motion.button>
             </motion.div>
