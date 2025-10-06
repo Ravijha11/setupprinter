@@ -93,8 +93,7 @@ const Hero = () => {
                 className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed font-serif"
                 variants={itemVariants}
               >
-                Printer troubleshooting and support services for all major Label. 
-                Get assistance with printer issues, wireless setup, and technical problems.
+              Comprehensive printer troubleshooting and assistance for all leading label. Receive expert help with connectivity issues, wireless configuration, and technical malfunctions.
               </motion.p>
             </div>
 
