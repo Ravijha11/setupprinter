@@ -62,7 +62,7 @@ const Hero = () => {
   const features = [
     { icon: Shield, text: "We assist printers from top global makers.", color: "text-green-500" },
     { icon: Zap, text: "Step-by-Step Troubleshooting Guide", color: "text-blue-500" },
-    { icon: Clock, text: "Wireless Setup Assistance", color: "text-purple-500" },
+    { icon: Clock, text: "Remote Setup Assistance", color: "text-purple-500" },
     { icon: Users, text: "Available 24/7 for printer assist", color: "text-orange-500" }
   ];
 
@@ -84,9 +84,6 @@ const Hero = () => {
                 Reliable
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 block">
                   Printer assist
-                </span>
-                <span className="text-gray-600 text-2xl sm:text-3xl md:text-4xl lg:text-5xl block font-serif">
-                  assists
                 </span>
               </motion.h1>
               <motion.p 
