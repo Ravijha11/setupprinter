@@ -60,10 +60,10 @@ const Hero = () => {
   };
 
   const features = [
-    { icon: Shield, text: "We service printers from top global makers.", color: "text-green-500" },
+    { icon: Shield, text: "We assist printers from top global makers.", color: "text-green-500" },
     { icon: Zap, text: "Step-by-Step Troubleshooting Guide", color: "text-blue-500" },
     { icon: Clock, text: "Wireless Setup Assistance", color: "text-purple-500" },
-    { icon: Users, text: "Available 24/7 for printer support", color: "text-orange-500" }
+    { icon: Users, text: "Available 24/7 for printer assist", color: "text-orange-500" }
   ];
 
   return (
@@ -83,10 +83,10 @@ const Hero = () => {
               >
                 Reliable
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 block">
-                  Printer Support
+                  Printer assist
                 </span>
                 <span className="text-gray-600 text-2xl sm:text-3xl md:text-4xl lg:text-5xl block font-serif">
-                  Services
+                  assists
                 </span>
               </motion.h1>
               <motion.p 
@@ -136,7 +136,7 @@ const Hero = () => {
                   to="/contact-us"
                   className="border-2 border-blue-600 text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-base sm:text-lg hover:bg-blue-600 hover:text-white transition-all duration-300 flex items-center justify-center group hover:shadow-lg w-full sm:w-auto"
                 >
-                  Get Support
+                  Get assist
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </motion.div>
