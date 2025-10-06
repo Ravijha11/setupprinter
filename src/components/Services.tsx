@@ -59,7 +59,7 @@ const Services = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               whileHover={{ scale: 1.05, y: -10 }}
-              onClick={() => window.location.href = 'tel:+18593126304'}
+              onClick={() => window.location.href = 'tel:+18287678724'}
             >
               <motion.div 
                 className={`flex items-center justify-center w-20 h-20 bg-gradient-to-r ${service.color} rounded-2xl mx-auto mb-6 group-hover:scale-110 transition-transform duration-300`}
@@ -95,7 +95,7 @@ const Services = () => {
             >
               <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600 mr-2" />
               <span className="text-blue-600 font-bold text-lg sm:text-xl font-serif group-hover:text-blue-700 transition-colors">
-                +1 (859) 312-6304
+                +1 (828) 767-8724
               </span>
             </motion.div>
             <motion.div 
