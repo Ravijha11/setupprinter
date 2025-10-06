@@ -17,8 +17,8 @@ const Services = () => {
     },
     {
       icon: Settings,
-      title: "Managed Print Services", 
-      description: "Print management services to help optimize costs and efficiency.",
+      title: "Managed Print assist", 
+      description: "Print management assist to help optimize costs and efficiency.",
       color: "from-purple-500 to-purple-600"
     },
     {
@@ -41,7 +41,7 @@ const Services = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl lg:text-6xl font-bold text-gray-800 mb-6 font-serif">
-            Our Printer Services
+            Our Printer assist
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto font-serif">
             We provide comprehensive printer solutions to keep your business running smoothly.
@@ -119,7 +119,7 @@ const Services = () => {
               <Star className="w-5 h-5 fill-current" />
               <Star className="w-5 h-5 fill-current" />
             </div>
-            <span className="text-gray-600 font-serif">Customer-focused service</span>
+            <span className="text-gray-600 font-serif">Customer-focused assistance</span>
           </div>
         </motion.div>
       </div>
