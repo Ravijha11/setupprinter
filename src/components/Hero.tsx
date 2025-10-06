@@ -60,7 +60,7 @@ const Hero = () => {
   };
 
   const features = [
-    { icon: Shield, text: "All Major Printer Brands Supported", color: "text-green-500" },
+    { icon: Shield, text: "All Major Printer Label Supported", color: "text-green-500" },
     { icon: Zap, text: "Step-by-Step Troubleshooting Guide", color: "text-blue-500" },
     { icon: Clock, text: "Wireless Setup Assistance", color: "text-purple-500" },
     { icon: Users, text: "Available 24/7 for printer support", color: "text-orange-500" }
@@ -93,7 +93,7 @@ const Hero = () => {
                 className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed font-serif"
                 variants={itemVariants}
               >
-                Printer troubleshooting and support services for all major brands. 
+                Printer troubleshooting and support services for all major Label. 
                 Get assistance with printer issues, wireless setup, and technical problems.
               </motion.p>
             </div>
