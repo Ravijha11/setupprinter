@@ -13,10 +13,10 @@ const BrandSelection = () => {
         {/* Blue header section */}
         <div className="bg-blue-600 text-white rounded-xl p-8 mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-center mb-6">
-            CHOOSE PRINTER BRAND
+            CHOOSE PRINTER LABEL
           </h2>
           <p className="text-center text-lg leading-relaxed max-w-4xl mx-auto">
-            Select your printer brand to access all necessary troubleshooting step-by-step instructions for issues like printer offline, wireless setup, not printing, blank prints, error codes or scanner issues.
+            Select your printer label to access all necessary troubleshooting step-by-step instructions for issues like printer offline, wireless setup, not printing, blank prints, error codes or scanner issues.
           </p>
         </div>
 
