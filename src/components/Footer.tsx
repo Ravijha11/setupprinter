@@ -132,7 +132,7 @@ const Footer = () => {
               >
                 <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600 mr-2" />
                 <span className="text-blue-600 font-bold text-lg sm:text-xl font-serif group-hover:text-blue-700 transition-colors">
-                  +1 (859) 312-6304
+                  +1 (828) 767-8724
                 </span>
               </motion.div>
               <motion.div 
