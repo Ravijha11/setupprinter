@@ -60,7 +60,7 @@ const Hero = () => {
   };
 
   const features = [
-    { icon: Shield, text: "All Major Printer Label Supported", color: "text-green-500" },
+    { icon: Shield, text: "We service printers from top global makers.", color: "text-green-500" },
     { icon: Zap, text: "Step-by-Step Troubleshooting Guide", color: "text-blue-500" },
     { icon: Clock, text: "Wireless Setup Assistance", color: "text-purple-500" },
     { icon: Users, text: "Available 24/7 for printer support", color: "text-orange-500" }
